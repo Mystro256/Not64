@@ -216,7 +216,6 @@ void dma_pi_write()
 	   case 2:
 	   case 3:
 	   case 6:
-	   case 7:
 #ifdef USE_EXPANSION
 	     rdram[0x318/4] = 0x800000;
 #else
